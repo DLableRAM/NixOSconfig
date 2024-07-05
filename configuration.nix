@@ -8,8 +8,7 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+    [ 
       ./modules/core.nix # basic packages
       ./modules/DE.nix # DE packages
       # NOTE: customize DE in home.nix!

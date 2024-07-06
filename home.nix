@@ -240,7 +240,7 @@
   };
   
   # Git config
-  git = {
+  programs.git = {
     enable = true;
     userName = "DLableRAM";
     userEmail = "spac3core24@gmail.com";

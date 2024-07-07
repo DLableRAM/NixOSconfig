@@ -64,6 +64,8 @@
     pkgs.freetube
     pkgs.element-desktop
     pkgs.lshw
+    pkgs.xarchiver
+    pkgs.vlc
   ];
 
   # Qutebrowser config
